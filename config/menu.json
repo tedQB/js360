@@ -1,0 +1,74 @@
+[{
+    "type": "internal",
+    "trans": "首页",
+    "route": "public.posts",
+    "icon": "icon ion-home"
+}, 
+{
+    "type": "internal",
+    "trans": "分类",
+    "route": "public.taxonomies({ term: 'category', postType: 'post'})",
+    "icon": "icon ion-folder"
+},
+{
+    "type": "external",
+    "trans": "日记",
+    "href": "http://www.jiese360.cn",
+    "icon": "icon ion-link"
+}, 
+{
+    "type": "internal",
+    "trans": "收藏",
+    "route": "public.bookmarks",
+    "icon": "icon ion-bookmark"
+},
+{
+    "type": "external",
+    "trans": "签到",
+    "href": "http://wx.wsq.qq.com/189065315",
+    "icon": "icon ion-link"
+}, 
+{
+    "type": "separator",
+    "trans": "会员"
+}, 
+{
+    "type": "external",
+    "trans": "服务",
+    "href": "http://mp.weixin.qq.com/s?__biz=MjM5ODMyMTI2MA==&mid=10000194&idx=1&sn=12d4e637d78058f5cccc2b69c06c50ec#rd",
+    "icon": "icon ion-link"
+}, 
+{
+    "type": "external",
+    "trans": "榜单",
+    "href": "http://www.jiese360.com/rank/index",
+    "icon": "icon ion-link"
+},
+{
+    "type": "external",
+    "trans": "评价",
+    "href": "http://mp.weixin.qq.com/s?__biz=MjM5ODMyMTI2MA==&mid=202735527&idx=1&sn=d67564d792470e55d7258a3100879d84#rd",
+    "icon": "icon ion-link"
+},
+{
+    "type": "external",
+    "trans": "购买",
+    "href": "http://wd.koudai.com/?userid=160244745",
+    "icon": "icon ion-link"
+},
+{
+    "type": "separator",
+    "trans": "其他"
+}, 
+{
+    "type": "internal",
+    "trans": "设置",
+    "route": "public.params",
+    "icon": "icon ion-gear-b"
+}, 
+{
+    "type": "external",
+    "trans": "官网",
+    "href": "http://www.jiese360.com",
+    "icon": "icon ion-link"
+}]

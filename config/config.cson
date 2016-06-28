@@ -1,0 +1,49 @@
+"title": "戒色文库"
+
+"api":
+    "baseUrl": "http://www.jiese360.cn/wp-json"
+    "timeout": 10000
+    "maxAttempt": 3
+
+# MENU
+"menu":
+    "externalLinkTarget" : "_blank"
+    "externalLinkOptions": "location=no"
+
+"translation":
+    "displayed" : ["zh", "en", "fr"]
+    "prefered": "zh"
+
+# SEARCH PAGE
+"search":
+    "query":
+        "per_page": 5
+        "filter[orderby]": "title"
+        "filter[order]": "desc"
+        "filter[post_status]": "publish"
+        
+    "cache":
+        "capacity": 5
+
+
+
+# POSTS PAGE
+"posts":
+    "cache":
+        "capacity": 99
+
+
+"cordova":
+    "admob":
+        "enabled":false
+        "android":
+            "bannerID": null
+            "interstitialID": null
+        "ios":
+            "bannerID": null
+            "interstitialID": null
+    "pushNotifications":
+        "enabled": true
+        "baseUrl": "http://www.jiese360.cn/pnfw"
+        "android":
+            "senderID": ""

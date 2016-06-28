@@ -1,0 +1,24 @@
+// http://www.materialpalette.com/blue-grey/teal
+// Here you can also overwrite ionic's variables
+$palette-primary-dark: #455a64 !default;
+$palette-primary-color: #2198de !default;
+$palette-primary-light: #cfd8dc !default;
+$palette-primary-icon: #fff !default;
+$palette-primary-text: #212121 !default;;
+$palette-primary-background: white !default;
+$palette-accent-color: #1f8ecb !default;
+$palette-secondary-text: #7c868b !default;
+$palette-divider-color: #EAEAEA !default;
+$bar-height: 50px !default;
+
+.module-posts .intro p{ height:100px; padding-bottom:10px; overflow:hidden; text-overflow: ellipsis; }
+.app-loading .intro p{ height:100px; padding-bottom:10px; overflow:hidden; text-overflow: ellipsis; }
+
+wphc-posts .card div.item-image{  height:150px; }
+
+wphc-post .padding{ padding:16px; }
+.post p{ padding-bottom:18px;}
+a.item{ padding:12px; }
+a.item .badge{ top:11px; }
+
+
