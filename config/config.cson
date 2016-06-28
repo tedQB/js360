@@ -43,7 +43,7 @@
             "bannerID": null
             "interstitialID": null
     "pushNotifications":
-        "enabled": true
+        "enabled": false
         "baseUrl": "http://www.jiese360.cn/pnfw"
         "android":
             "senderID": ""
